@@ -1,0 +1,5 @@
+{
+  ".zshrc": { "type": "zsh" },
+  ".config/nvim/init.vim": { "type": "vim" },
+  ".ssh/config": { "type": "ssh" }
+}
