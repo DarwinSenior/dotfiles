@@ -169,12 +169,7 @@ let g:nnn#layout = { 'window': { 'width': 0.9, 'height': 0.6, 'highlight': 'Debu
 
 " {{{3 window operations
 Plug 'tmux-plugins/vim-tmux-focus-events'
-" Plug 'sunaku/tmux-navigate'
-Plug 'christoomey/vim-tmux-navigator'
-noremap <silent> <m-h> :TmuxNavigateLeft<cr>
-noremap <silent> <m-j> :TmuxNavigateDown<cr>
-noremap <silent> <m-k> :TmuxNavigateUp<cr>
-noremap <silent> <m-l> :TmuxNavigateRight<cr>
+Plug 'knubie/vim-kitty-navigator'
 Plug 'camspiers/lens.vim'
 
 " {{{2 vim file syntax

@@ -1,4 +1,4 @@
-alias ss=proxychains4 -f $HOME/.config/proxychains.conf -q
+alias ss="proxychains4 -f $HOME/.config/proxychains.conf -q"
 
 export VISUAL='nvim'
 export EDITOR='nvim'
@@ -109,7 +109,7 @@ finish_setup() {
   command -v bat >/dev/null && alias cat=bat
   command -v htop >/dev/null && alias top=htop
   command -v nnn >/dev/null && alias nnn="nnn -e"
-  command -v exa >/dev/null && alias ls="exa" && alias ll="exa -lh" && alias la="exa -lhaa"
+  command -v exa >/dev/null && alias ls="exa --icons" && alias ll="exa -lh" && alias la="exa -lhaa"
 }
 
 ### End of Zinit's installer chunk
