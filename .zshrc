@@ -79,6 +79,7 @@ zinit wait lucid pick'/dev/null' for \
   make"PREFIX=$ZPFX O_ICONS=1 install" jarun/nnn \
   make"PREFIX=$ZPFX install" dylanaraps/neofetch \
   make"prefix=$ZPFX install" nodakai/tree-command \
+  make sbin'kitty/launcher/kitty' kovidgoyal/kitty \
   atclone"./install.sh" sebastiencs/icons-in-terminal \
   atload"export NNN_FIFO=/tmp/nnn.fifo; export NNN_OPENER=$HOME/.config/nnn/plugins/nuke; export NNN_PLUG='p:preview-tui'" \
   cp"_the_silver_searcher -> _ag" \
