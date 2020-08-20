@@ -1,5 +1,7 @@
 {
-  ".zshrc": { "type": "zsh" },
-  ".config/nvim/init.vim": { "type": "vim" },
-  ".ssh/config": { "type": "ssh" }
+  ".ssh/config": { "type": "ssh" },
+  ".zshrc": { "type": "zsh", "make": "source ~/.zshrc" },
+  ".config/nvim/init.vim": { "type": "vim", "make": "vim +PlugInstall +qa" },
+  ".config/kitty/kitty.conf": { "type": "kitty" },
+  ".config/tmux/tmux.conf": { "type": "tmux", "make": "tmux source ~/.config/tmux/tmux.conf" }
 }

@@ -1,7 +1,11 @@
 {
   "diagnostic.errorSign": "✗",
-  "diagnostic.warningSign": "■",
-  "diagnostic.infoSign": "⮚",
+  "diagnostic.warningSign": "▲",
+  "diagnostic.infoSign": "✓",
   "diagnostic.hintSign": "⮚",
-  "suggest.snippetIndicator": "🟉"
+  "suggest.snippetIndicator": "★",
+
+  "python.linting.enabled": false,
+  "python.jediEnabled": false,
+  
 }
